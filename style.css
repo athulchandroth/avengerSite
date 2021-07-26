@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Zen Loop', cursive;
+    line-height: 2.0;
+    font-size: 1rem; /* 1rem = 16pixels */
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+    border-left: 5px double red;
+    /* display: flex; */
+    padding-top: 20px;
+    padding-left: 2px;
+}
+.main-section{
+    width: 100%;
+    display: flex;
+}
+.aboutself{
+    padding: 40px;
+    width: 70%;
+    border: red;
+}
+.listing-order{
+    list-style: none;
+}
+
+.passport{
+    width: 30%;
+}
+.image-adj{
+    width: 60%;
+    height: 180px;
+    min-width: 112px;
+
+}
+.separator{
+    padding: 5x;
+}
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.header{
+    padding:10px 0px  ;
+}
+.table-part{
+    justify-content:center;
+    display: flex;
+}
+tr th{
+    padding: 0px 10px 0 10px;
+}
+tr td{
+    text-align: center;
+}
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.lang{
+    display: flex;
+}
+.lang :first-child{
+    width: 40%;
+}
+.lang div:first-child{
+    width: 40%;
+}
+.lang :last-child{
+    width: 60%;
+    padding-left: 20px;
+}
+.progressbar{
+    width: 90%;
+    
+}
+.personal--details{
+    width: 70%;
+    margin: auto;
+}
+
+.details{
+    display: flex;
+    /* width: 100%; */
+}
+.details div:first-child{
+    width: 40%;
+    padding-left: 20%;
+}
+.details div:last-child{
+    width: 60%;
+    padding-left: 20%;
+}
+.header :hover{
+    background-color: rgb(51, 94, 94);
+    border: 1px solid red;
+    width: 20%;
+    text-align: center;
+    border-radius: 50%;
+    font-display: white;
+}
